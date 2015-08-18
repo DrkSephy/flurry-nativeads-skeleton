@@ -15,6 +15,7 @@ class TblCell: UITableViewCell {
     @IBOutlet weak var streamImageView: UIImageView!
     @IBOutlet weak var sponsoredImageView: UIImageView!
     @IBOutlet weak var streamSourceLabel: UILabel!
+    @IBOutlet weak var sponsoredText: UILabel!
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
